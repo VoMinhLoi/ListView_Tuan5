@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.petShopLV);
-        items.add(new com.example.listview_tuan5.Items("Mèo Na uy","Thông tin mèo Na Uy", "2",R.drawable.nauy)) ;
-        items.add(new com.example.listview_tuan5.Items("Husky","Thông tin Husky", "3",R.drawable.husky)) ;
-        items.add(new com.example.listview_tuan5.Items("Mèo Ba Tư","Thông tin mèo Ba Tư", "2",R.drawable.butu)) ;
-        items.add(new com.example.listview_tuan5.Items("Chó mặt xệ","Thông tin chó mặt xệ", "3",R.drawable.matxe)) ;
-        items.add(new com.example.listview_tuan5.Items("Mèo Sphynx","Thông tin mèo Sphynx", "2",R.drawable.sphynx)) ;
+        items.add(new com.example.listview_tuan5.Items("Mèo Na uy","Thông tin mèo Na Uy", "Giá: 2",R.drawable.nauy)) ;
+        items.add(new com.example.listview_tuan5.Items("Husky","Thông tin Husky", "Giá: 3",R.drawable.husky)) ;
+        items.add(new com.example.listview_tuan5.Items("Mèo Ba Tư","Thông tin mèo Ba Tư", "Giá: 2",R.drawable.butu)) ;
+        items.add(new com.example.listview_tuan5.Items("Chó mặt xệ","Thông tin chó mặt xệ", "Giá: 3",R.drawable.matxe)) ;
+        items.add(new com.example.listview_tuan5.Items("Mèo Sphynx","Thông tin mèo Sphynx", "Giá: 2",R.drawable.sphynx)) ;
 
 
         adapter = new com.example.listview_tuan5.Adapter(MainActivity.this,items);
